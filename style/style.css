@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     font-family: 'Heebo', sans-serif;
 }
@@ -97,7 +101,7 @@ body {
     background-color: #283618;
     border-radius: 10px;
     top: 12.5%;
-    left: 12.5%;
+    left: 14%;
 }
 
 #header{
@@ -186,7 +190,7 @@ body {
     width: 50vh;
     left: 30.6%;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-right: 20px;
 }
 
@@ -214,7 +218,7 @@ body {
     position: absolute;
     height: 5vh;
     width: 72vh;
-    top: 37.9%;
+    top: 38.9%;
     justify-content: center;
     align-items: center;
     font-weight: bold;
@@ -229,10 +233,17 @@ body {
     top: 45.5%;
     padding-left: 20px;
     font-size: 9.5px;
+    padding-right: 20px;
 }
 
 #webdev, #lang{
     font-weight: bold;
+}
+
+#lang{
+    display: block;
+    position: relative;
+    top: 3.5%;
 }
 
 #softwaresbody{
@@ -241,7 +252,7 @@ body {
     position: absolute;
     height: 8.5vh;
     width: 72vh;
-    top: 87.2%;
+    top: 88.2%;
     padding-left: 20px;
     font-weight: bold;
     font-size: 20px;
@@ -269,4 +280,44 @@ body {
 
 #dr{
     left: 48%;
+}
+
+#right{
+    display: flex;
+    position: absolute;
+    height: 30vh;
+    width: 50vh;
+    left: 55%;
+    top: 43%;
+    padding: 0px;
+}
+
+#believe, #every, #journey{
+    display: flex;
+    position: absolute;
+    width: 50vh;
+    align-items: center;
+    margin-top: -50px;
+}
+
+#believe{
+    height: 5vh;
+    font-size: 17px;
+    color: #939878;
+    font-weight: bold;
+}
+
+#every{
+    height: 20vh;
+    top: 9%;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+#journey{
+    height: 5vh;
+    top: 72.5%;
+    font-size: 10px;
+    color: white;
 }
