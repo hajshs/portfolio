@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+*{
+    font-family: 'Heebo', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,15 +24,15 @@ body {
     width: 100%;
 }
 
-#name{
+#headername{
     display: flex;
     position: absolute;
+    width: 100%;
     font-size: 20px;
     font-weight: bold;
-    top: 10%;
-    left: 48.3%;
+    top: 8%;
+    justify-content: center;
     color: #5E6748;
-    transform: translate(-10%, -50%);
 }
 
 #portfolio, #greet{
@@ -42,7 +48,7 @@ body {
 #portfolio{
     height: 20vh;
     width: 30vh;
-    top: 40%;
+    top: 35%;
     left: 10%;
     color: #939878;
     padding: 0px;
@@ -50,8 +56,8 @@ body {
 }
 
 #portfolio h1{
-    margin-bottom: 5px;
-    margin: 0px;
+    margin-bottom: -15px;
+    padding: 0px;
     font-size: 57px;
     color: white;
 }
@@ -75,7 +81,192 @@ body {
     background-color: #283618;
     color: white;
     font-size: 11px;
-    top: 71%;
+    top: 73%;
     left: 10%;
     cursor: pointer;
+}
+
+#left, #header, #circles, #title, #body, #stardots, #pfp{
+    display: flex;
+    position: absolute;
+}
+
+#left{
+    height: 75vh;
+    width: 75vh;
+    background-color: #283618;
+    border-radius: 10px;
+    top: 12.5%;
+    left: 12.5%;
+}
+
+#header{
+    height: 7.5vh;
+    width: 75vh;
+}
+
+#circles{
+    top: 40%;
+    left: 2.5%;
+}
+
+#circle1, #circle2, #circle3{
+    border-radius: 50%;
+    height: 2vh;
+    width: 2vh;
+    margin-right: 5px;
+}
+
+#circle1{
+    background-color: #415D43;
+}
+
+#circle2{
+    background-color: #8FB996;
+}
+
+#circle3{
+    background-color: #709775;
+}
+
+#title{
+    top: 30%;
+    left: 44%;
+    color: #8FB996;
+    font-weight: bold;
+}
+
+#stardots{
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    left: 85%;
+}
+
+#star{
+    height: 5vh;
+    width: auto;
+    margin-right: -55px;
+}
+
+#dots{
+    height: 7.5vh;
+    width: auto;
+}
+
+#body{
+    padding: 0px;
+    height: 66vh;
+    width: 72vh;
+    background-color: white;
+    border-radius: 10px;
+    top: 10%;
+    left: 2%;
+}
+
+#pfp{
+    height: 25vh;
+    width: 22vh;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 7.5px;
+}
+
+#pic{
+    height: 100%;
+    width: auto
+}
+
+#nameeduc{
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    height: 25vh;
+    width: 50vh;
+    left: 30.6%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+#name{
+    color: #283618;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#educ{
+    color: #5E6748;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: -12.5px;
+}
+
+#nameeduc li{
+    margin-left: -20px;
+    font-size: 10px;
+}
+
+#skillsheader{
+    display: flex;
+    position: absolute;
+    height: 5vh;
+    width: 72vh;
+    top: 37.9%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#skillsbody{
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    height: 27.5vh;
+    width: 72vh;
+    top: 45.5%;
+    padding-left: 20px;
+    font-size: 9.5px;
+}
+
+#webdev, #lang{
+    font-weight: bold;
+}
+
+#softwaresbody{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    height: 8.5vh;
+    width: 72vh;
+    top: 87.2%;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
+
+.apps{
+    display: flex;
+    position: absolute;
+    height: 4vh;
+    width: auto;
+}
+
+#ps{
+    left: 25.5%;
+}
+
+#ai{
+    left: 33%;
+}
+
+#pr{
+    left: 40.5%;
+}
+
+#dr{
+    left: 48%;
 }
