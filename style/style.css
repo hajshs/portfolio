@@ -321,3 +321,89 @@ body {
     font-size: 10px;
     color: white;
 }
+
+#third{
+    justify-content: center;
+    align-items: center;
+}
+
+#middle{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    height: 60vh;
+    width: 135vh;
+    background-color: #09200E;
+    justify-content: center;
+}
+
+#future, #contactbox, #contacts{
+    display: flex;
+    position: absolute;
+}
+
+#future{
+    height: 10vh;
+    width: 100%;
+    top: 17.5%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #939878;
+    font-weight: bold;
+}
+
+#contactbox{
+    box-sizing: border-box;
+    height: 5vh;
+    width: 22.5vh;
+    background-color: #09200E;
+    top: 37.5%;
+    align-items: center;
+    justify-content: center;
+    border: solid #5E6748;
+    border-width: 1px;
+    color: white;
+    font-size: 16px;
+}
+
+#contacts{
+    height: 12.5vh;
+    width: 60%;
+    top: 60%;
+}
+
+#github, #linkedin, #email, #number{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 5vh;
+    color: white;
+    font-size: 18px;
+}
+
+#github{
+    top: 0px;
+    left: 0px;
+}
+
+#linkedin{
+    bottom: 0px;
+    left: 0px;
+}
+
+#email{
+    top: 0px;
+    right: 0px;
+}
+
+#number{
+    bottom: 0px;
+    right: 36.5px;
+}
+
+#glogo, #llogo, #elogo, #plogo{
+    height: 100%;
+    width: auto;
+    margin-right: 20px;
+}
